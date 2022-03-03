@@ -27,6 +27,13 @@
 		padding-right: 245px;
 		min-height: 536px;
 	}
+	.offer-block__title {
+    font-size: 26px;
+    line-height: 35px;
+}
+.offer-block__title strong {
+    font-size: 31px;
+    }
 	.about-block::before {
 		transform: scale(0.9);
 		transform-origin: 0;
