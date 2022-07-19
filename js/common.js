@@ -182,6 +182,14 @@ if ( $(this).scrollTop() > 300 && $menu.hasClass("default") ){
 	}
 
 
+ $(".comments-block__head").click(function() {
+  $(this).parent().toggleClass("active");
+  $(this).siblings().slideToggle(200);
+  $(this).parent().siblings(".comments-block").removeClass("active");
+  $(this).parent().siblings(".comments-block").find(".comments-block__content").slideUp(200);
+});
+  
+
 
 	 // стайлер для select
 	 $('select').styler();
