@@ -16,7 +16,7 @@
 	}
 	.item-catalog {
 		padding: 30px;
-		padding-top: 10px;
+		padding-top: 10px; 
 	}
 	.offer-block__img img {
 		max-width: 380px;
@@ -175,7 +175,7 @@
 		padding-bottom: 160px;
 	}
 	.unit-category__title {
-		font-size: 17px;
+		font-size: 16px;
 		right: 120px;
 	}
 	.unit-category {
@@ -199,6 +199,14 @@
 	.block-form {
 		padding: 50px;
 	}
+	.menu-catalog > li > a {
+    font-size: 17px;
+    padding: 15px 20px;
+}
+.submenu-dropdown {
+    font-size: 17px;
+    line-height: 39px;
+    }
 }
 @media only screen and (max-width : 1400px) {
 	.item-article__title {
@@ -437,6 +445,16 @@
 	}
 	.block-form {
 		padding: 50px 30px;
+	}
+	.catalog-page_main .row_categories {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.catalog-page_main .row_categories > div {
+		padding: 0 10px;
+	}
+	.catalog-page .unit-category {
+		margin-top: 25px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -1367,6 +1385,9 @@
 	#map {
 		height: 350px;
 	}
+	.catalog-page .unit-category {
+		height: 260px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1626,6 +1647,9 @@
 	.title-contact {
 		font-size: 20px;
 		line-height: 26px;
+	}
+	.catalog-page .unit-category {
+		height: 235px;
 	}
 }
 

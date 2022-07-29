@@ -23,7 +23,7 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
-body {
+body { 
 	font-family: 'Cera Pro';
 	font-size: 16px;
 	line-height: 26px;
@@ -1599,7 +1599,7 @@ a.footer__title:hover {
 	font-family: "Font Awesome 5 Pro";
 }
 .fancybox-close::before {
-	    content: "\f00d";
+	content: "\f00d";
 }
 .fancybox-inner {
 	overflow: visible !important;
@@ -2770,6 +2770,7 @@ a.footer__title:hover {
 	line-height: 23px;
 	padding: 15px;
 	right: 141px;
+	min-height: 76px;
 	color: #fff;
 	position: absolute;
 	bottom: 0;
@@ -2927,8 +2928,8 @@ a.value-contact {
 .block-form {
 	padding: 60px;
 	background: #FFFFFF;
-border: 1px solid #333333;
-text-align: center;
+	border: 1px solid #333333;
+	text-align: center;
 }
 .subtitle-form {
 	font-size: 20px;
@@ -2962,10 +2963,29 @@ text-align: center;
 	z-index: 2;
 }
 [class*="ymaps-2"][class*="-ground-pane"] {
- -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+.catalog-page .unit-category {
+	margin-top: 30px;
+}
+.catalog-page .unit-category img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+.catalog-page .unit-category:hover img {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
 }
