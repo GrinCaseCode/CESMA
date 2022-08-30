@@ -200,13 +200,18 @@
 		padding: 50px;
 	}
 	.menu-catalog > li > a {
-    font-size: 17px;
-    padding: 15px 20px;
-}
-.submenu-dropdown {
-    font-size: 17px;
-    line-height: 39px;
-    }
+		font-size: 17px;
+		padding: 15px 20px;
+	}
+	.submenu-dropdown {
+		font-size: 17px;
+		line-height: 39px;
+	}
+
+	/*card*/
+	.slider-products .slick-list {
+		padding: 0 1px;
+	} 
 }
 @media only screen and (max-width : 1400px) {
 	.item-article__title {
@@ -456,6 +461,54 @@
 	.catalog-page .unit-category {
 		margin-top: 25px;
 	}
+	/*card*/
+	.card .slider-nav__item {
+		height: 115px;
+		margin: 7px 0;
+	}
+	.card .slider-for__item {
+		height: 430px;
+	}
+	.card .feature-item strong {
+		min-width: 130px;
+		margin-right: 5px;
+	}
+	.card .feature-item {
+		font-size: 13px;
+	}
+	.card .prices-card {
+		padding-top: 10px;
+	}
+	.card-select {
+		margin-top: 15px;
+	}
+	.head-card {
+		margin-bottom: 15px;
+	}
+	.controls-card {
+		margin-top: 23px;
+		margin-bottom: 23px;
+	}
+	.card-advantages {
+		padding: 15px;
+		margin-bottom: 35px;
+	}
+	.card-advantages__item {
+		margin-bottom: 15px;
+	}
+	.banner-card {
+		padding: 30px;
+	}
+	.banner-card__title {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.card .video-main {
+		height: 420px;
+	}
+	.slider-products .slick-list {
+		padding: 0 2px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -648,6 +701,33 @@
 	}
 	.block-form {
 		padding: 40px 15px;
+	}
+	/*card*/
+	.card-select .item-form {
+		margin-right: 20px;
+	}
+	.card .item-type {
+		margin-right: 10px;
+	}
+	.card .item-type label > span {
+		width: 47px;
+	}
+	.controls-card .btn-main {
+		font-size: 13px;
+		margin-left: 8px;
+	}
+	.controls-card .quantity {
+		margin-right: 5px;
+	}
+	.feature-main {
+		margin-bottom: 20px;
+	}
+	.banner-card {
+		padding: 20px;
+	}
+	.banner-card__title {
+		font-size: 23px;
+		line-height: 30px;
 	}
 }
 
@@ -1058,6 +1138,32 @@
 	.block-form {
 		padding: 40px;
 	}
+	.col_for {
+		order: -1;
+	}
+	.card .slider-for {
+		margin-bottom: 15px;
+	}
+	.card .slider-nav {
+		margin-bottom: 20px;
+		padding: 0;
+		max-width: 100%;
+	}
+	.card .slider-nav__item {
+		width: 120px;
+		height: 120px;
+		margin: 0 auto;
+	}
+	.card__info {
+		padding-top: 25px;
+		margin-top: 30px;
+	}
+	.card__info .title-min {
+		padding-bottom: 15px;
+	}
+	.slider-products .slick-list {
+		padding: 0;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1388,6 +1494,42 @@
 	.catalog-page .unit-category {
 		height: 260px;
 	}
+
+	/*card*/
+	.card .slider-for__item {
+		height: 345px;
+	}
+	.card .slider-nav {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.title-card {
+		font-size: 18px;
+		line-height: 23px;
+	}
+	.header-card__right {
+		flex: none;
+	}
+	.feature-main {
+		margin-bottom: 13px;
+	}
+	.title-min {
+		font-size: 17px;
+	}
+	.card .video-main {
+		height: 280px;
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+	.card__info .breadcrumbs {
+		padding-bottom: 25px;
+	}
+	.card {
+		padding-bottom: 35px;
+	}
+	.slider-products .slick-slide {
+		padding: 0 1px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1650,6 +1792,49 @@
 	}
 	.catalog-page .unit-category {
 		height: 235px;
+	}
+
+	/*card*/
+	.card .slider-nav__item {
+		width: 80px;
+		height: 90px;
+	}
+	.card .slider-nav {
+		padding-top: 20px;
+	}
+	.card .slider-for {
+		margin-bottom: 0;
+	}
+	.card-select {
+		display: block;
+	}
+	.card-select .item-form {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.card .item-type label > span {
+		width: 54px;
+	}
+	.controls-card {
+		flex-wrap: wrap;
+	}
+	.controls-card .quantity {
+		margin: 0;
+		max-width: 51%;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.controls-card .btn-main {
+		font-size: 14px;
+		margin: 0;
+		flex: none;
+		width: 50%;
+	}
+	.card .video-main {
+		height: 205px;
+	}
+	.slider-products  .slick-dots {
+		bottom: -30px;	
 	}
 }
 

@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
 
+$(".like-btn").click(function(e) {
+	e.preventDefault();
+		$(this).toggleClass("active");
+	});
+
 //прилипающие меню
 var $menu = $(".help-fixed");
 $(window).scroll(function(){
@@ -222,6 +227,43 @@ if ( $(this).scrollTop() > 300 && $menu.hasClass("default") ){
 		}
 		]
 	});
+
+	$('.slider-products').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				arrows: false,
+				dots: true,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
