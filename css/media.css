@@ -1530,8 +1530,10 @@
 	.slider-products .slick-slide {
 		padding: 0 1px;
 	}
-	.breadcrumbs li,
 	.breadcrumbs {
+		display: block;
+	}
+	.breadcrumbs li {
 		display: inline;
 	}
 }
