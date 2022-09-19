@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 
-$(".like-btn").click(function(e) {
-	e.preventDefault();
+	$(".like-btn").click(function(e) {
+		e.preventDefault();
 		$(this).toggleClass("active");
 	});
 
@@ -262,6 +262,53 @@ if ( $(this).scrollTop() > 300 && $menu.hasClass("default") ){
 			}
 		}
 		]
+	});
+
+
+	/*about*/
+	$('.slider-clients').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 4,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3,
+				arrows: false,
+				dots: true,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 2,
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings(".tab-container").find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
 	});
 
 

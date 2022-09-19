@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.23" />
+	<link rel="stylesheet" href="css/media.css?ver=1.23" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<a href="#modal-help" class="help-fixed default fancybox">
+			<img src="img/help1.png" alt="alt">
+			<span class="help-fixed__title">НЕ НАШЛИ НУЖНЫЙ ТОВАР?</span>
+			<span>Спросите <br>у малыша Йоды либо оставьте заявку на доставку</span>
+		</a>
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="btn-sandwich btn-sandwich_catalog">
+						<span class="sandwich">
+							<span class="sw-topper"></span>
+							<span class="sw-bottom"></span>
+							<span class="sw-footer"></span>
+						</span>
+						<div class="btn-sandwich__text">каталог</div>
+					</div>
+					<div class="header-content">
+						<div class="header__main">
+							<a href="#" class="logo">
+								<img src="img/logo.png" alt="alt">
+							</a>
+							<div class="header__contacts">
+								<p>Симферополь, ул. Глинки, 80</p>
+								<p>E-mail: info@cesma.onlne.ru</p>
+							</div>
+						</div>
+						<div class="form-search">
+							<form>
+								<input type="text" placeholder="Поиск">
+								<div class="search-btn"><i class="far fa-search"></i></div>
+							</form>
+						</div>
+						<div class="buttons-header">
+							<a href="#" class="btn-header"><i class="fal fa-heart"></i></a>
+							<a href="#" class="btn-header"><img src="img/bars.png" alt="alt"></a>
+							<a href="#" class="btn-header"><i class="fal fa-shopping-cart"></i><span>1</span></a>
+						</div>
+						<div class="callback-contacts">
+							<a href="tel:+79789598545" class="phone-main">+7 (978) 959-85-45</a>
+							<div>
+								<a href="#callback" class="link-simple">Позвоните мне</a>
+								<a href="#"><i class="fab fa-whatsapp"></i></a>
+								<a href="#"><i class="fab fa-viber"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="btn-sandwich btn-sandwich_menu">
+						<span class="sandwich">
+							<span class="sw-topper"></span>
+							<span class="sw-bottom"></span>
+							<span class="sw-footer"></span>
+						</span>
+						<div class="btn-sandwich__text">меню</div>
+					</div>
+					<div class="catalog-dropdown">
+						<div class="row">
+							<div class="col-lg-3">
+								<ul class="menu-catalog">
+									<li class="active">
+										<a href="#">Краски</a>
+										<div class="content-dropdown" style="display: block;">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для радиаторов</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Аэрозольные краски в баллончиках</a></li>
+														<li><a href="#">Красители для ручного колерования</a></li>
+														<li><a href="#">Краска для дерева</a></li>
+														<li><a href="#">Краска для окон и дверей</a></li>
+														<li><a href="#">Краска для пола</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Флуоресцентная краска</a></li>
+																<li><a href="#">Краска для бассейна</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Эмали</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Аэрозольные краски в баллончиках</a></li>
+														<li><a href="#">Красители для ручного колерования</a></li>
+														<li><a href="#">Краска для дерева</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Лаки и масла</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для радиаторов</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Грунтовки</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Красители для ручного колерования</a></li>
+														<li><a href="#">Краска для дерева</a></li>
+														<li><a href="#">Краска для окон и дверей</a></li>
+														<li><a href="#">Краска для пола</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Флуоресцентная краска</a></li>
+																<li><a href="#">Краска для бассейна</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Герметики и пены</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Аэрозольные краски в баллончиках</a></li>
+														<li><a href="#">Красители для ручного колерования</a></li>
+														<li><a href="#">Краска для дерева</a></li>
+														<li><a href="#">Краска для окон и дверей</a></li>
+														<li><a href="#">Краска для пола</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Клей и гидроизоляционные материалы</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для радиаторов</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Краска для дерева</a></li>
+														<li><a href="#">Краска для окон и дверей</a></li>
+														<li><a href="#">Краска для пола</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Сухие смеси</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для радиаторов</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Аэрозольные краски в баллончиках</a></li>
+														<li><a href="#">Краска для дерева</a></li>
+														<li><a href="#">Краска для пола</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Флуоресцентная краска</a></li>
+																<li><a href="#">Краска для бассейна</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Растворители, защита и уход</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для радиаторов</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Краска для окон и дверей</a></li>
+														<li><a href="#">Краска для пола</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Флуоресцентная краска</a></li>
+																<li><a href="#">Краска для бассейна</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Декоративные покрытия</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для радиаторов</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Аэрозольные краски в баллончиках</a></li>
+														<li><a href="#">Краска для пола</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Краска для яхт и лодок</a></li>
+																<li><a href="#">Термостойкая краска</a></li>
+																<li><a href="#">Флуоресцентная краска</a></li>
+																<li><a href="#">Краска для бассейна</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="#">Инструмент</a>
+										<div class="content-dropdown">
+											<div class="row">
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Краска для внутренних работ</a>
+															<ul>
+																<li><a href="#">Краска для потолка</a></li>
+																<li><a href="#">Краска для радиаторов</a></li>
+																<li><a href="#">Краска для стен и потолков</a></li>
+															</ul>
+														</li>
+													</ul>
+													<ul class="submenu-dropdown">
+														<li><a href="#">Аэрозольные краски в баллончиках</a></li>
+														<li><a href="#">Красители для ручного колерования</a></li>
+														<li><a href="#">Краска для дерева</a></li>
+														<li><a href="#">Краска для окон и дверей</a></li>
+														<li><a href="#">Фасадная краска</a></li>
+													</ul>
+												</div>
+												<div class="col-lg">
+													<ul class="submenu-dropdown">
+														<li>
+															<a href="#">Специальные покрытия</a>
+															<ul>
+																<li><a href="#">Краска для ванны</a></li>
+																<li><a href="#">Флуоресцентная краска</a></li>
+																<li><a href="#">Краска для бассейна</a></li>
+																<li><a href="#">Грифельная краска</a></li>
+																<li><a href="#">Магнитная краска</a></li>
+																<li><a href="#">Маркерная краска</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<div class="col__image-dropdown">
+													<div class="content-dropdown__image">
+														<img src="img/menu1.jpg" alt="alt">
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="customers">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li>Покупателям</li>
+				</ul>
+				<h1 class="title-section">Покупателям</h1>
+				<ul class="tabs tabs_page">
+					<li class="active"><a href="#tab_customers1">Доставка и оплата</a></li>
+					<li><a href="#tab_customers2">Возврат и обмен</a></li>
+				</ul>
+				<div class="tab-container">
+					<div class="tab-pane" id="tab_customers1">
+						<h2 class="title-section title-section_simple">Доставка</h2>
+						<div class="row row_delivery">
+							<div class="col-lg-6">
+								<div class="block-customer">
+									<div class="block-customer__title"><strong>Доставка бесплатная</strong> в любой город Крыма в <strong>течение 3 дней</strong></div>
+									<a href="#" class="btn-page">заказать</a>
+									<div class="block-customer__image">
+										<img src="img/car.png" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="block-customer">
+									<div class="block-customer__title"><strong>Самовывоз</strong></div>
+									<div class="block-customer__descr">Приезжайте к нам в магазин</div>
+									<div class="location-block">
+										<div class="location-block__image">
+											<img src="img/location.jpg" alt="alt">
+										</div>
+										<div class="location-block__content">
+											<p>г. Симферополь, ул. Глинки, 53</p>
+											<p>Пн-Пт: 9.00 - 17.00 <br>Сб: 10.00 - 15.00</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h2 class="title-section title-section_simple">Способы оплаты</h2>
+						<div class="payments-wrap">
+							<div class="box-info">
+								<div class="box-info__head">Оплата наличными <i class="fas fa-arrow-down"></i></div>
+								<div class="box-info__content">
+									<p>Оплата наличными курьеру при получении товара или оплата в офисе при самовывозе.</p>
+								</div>
+							</div>
+							<div class="box-info">
+								<div class="box-info__head">Оплата банковской картой <i class="fas fa-arrow-down"></i></div>
+								<div class="box-info__content">
+									<p>Онлайн перевод на карту РНКБ </p>
+								</div>
+							</div>
+							<div class="box-info">
+								<div class="box-info__head">Безналичный расчет <i class="fas fa-arrow-down"></i></div>
+								<div class="box-info__content">
+									<p>Оплата по безналичному расчету на основании счета. Счет формируется автоматически при оформлении заказа на сайте.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="tab_customers2">
+						
+					</div>
+				</div> 
+				<div class="consultation-block">
+					<div class="row align-items-end">
+						<div class="col-lg-6">
+							<h2 class="title-section"><strong>Нужна помощь?</strong> <span>Закажите бесплатную консультацию!</span></h2>
+							<div class="descr-section">Консультируем и решаем технические вопросы выбора и применения лакокрасочных материалов</div>
+						</div>
+						<div class="col-lg-6">
+							<form>
+								<div class="form-line">
+									<div class="item-form">
+										<input type="text" placeholder="+7 (___) ___-__-__" required="required" class="input-phone">
+									</div>
+									<button class="btn-main">Получить консультацию</button>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked="checked" />
+										<span>Согласие на обработку персональных данных</span>
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container container__footer">
+				<div class="row">
+					<div class="col_footer">
+						<a href="#" class="logo">
+							<img src="img/logo2.png" alt="alt">
+						</a>
+						<div class="logo-descr">Супермаркет красок</div>
+						<ul class="social-list">
+							<li><a href="#"><i class="fab fa-vk"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						</ul>
+						<div class="text-footer">Любая информация, представленная на данном сайте носит исключительно информационный характер и ни при каких условиях не является публичной офертой</div>
+					</div>
+					<div class="col-lg">
+						<div class="footer__title footer__title_mob">КАТАЛОГ <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Краски и эмали</a></li>
+								<li><a href="#">Лаки и масла</a></li>
+								<li><a href="#">Грунтовки</a></li>
+								<li><a href="#">Герметики и пены</a></li>
+								<li><a href="#">Сухие смеси</a></li>
+								<li><a href="#">Клей и гидроизоляционные материалы</a></li>
+								<li><a href="#">Растворители, защита и уход</a></li>
+								<li><a href="#">Декоративные покрытия</a></li>
+								<li><a href="#">Инструмент</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg">
+						<div class="footer__title footer__title_mob">КОМПАНИЯ <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Партнёры</a></li>
+							</ul>
+						</div>
+						<div class="footer__title footer__title_mob">ПОКУПАТЕЛЯМ <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Оплата и доставка</a></li>
+								<li><a href="#">Возврат и обмен товара</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#" class="footer__title">ПОСТАВЩИКАМ</a></li>
+							<li><a href="#" class="footer__title">советы и статьи</a></li>
+							<li><a href="#" class="footer__title">акции</a></li>
+						</ul>
+					</div>
+					<div class="col-lg">
+						<div class="footer__title footer__title_mob">КОНТАКТЫ <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<div class="footer__contacts">
+								<p>Симферополь, ул. Гоголя, дом № 68 <br>литера А, помещение 1-13</p>
+								<br>
+								<p>Номер телефона <br><a href="tel:+79892462209">+7 989 246-22-09</a></p>
+								<br>
+								<p>Электронная почта <br><a href="mailto:cesma@mail.ru">cesma@mail.ru</a></p>
+							</div>
+						</div>
+						<br>
+						<div class="footer__title footer__title_mob">реквизиты <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<div class="footer__contacts">
+								<p>ИНН/КПП 9102240086/910201001</p>
+								<p>ОГРН: 1189102000988</p>
+								<p>р/с 40702810642310002630</p>
+								<p>К/с № 30101810335100000607</p>
+								<p>РНКБ БАНК (ПАО) г. Симферополь</p>
+								<p>БИК № 04351060</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col_footer">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg">
+							<p>г. Симферополь © Copyright 2022 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-lg">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="card-modal" class="modal-block">
+		<div class="modal-wrap">
+			<div class="row">
+				<div class="col-lg-2">
+					<ul class="slider-nav">
+						<li>
+							<div class="slider-nav__item">
+								<img src="img/slide_nav1.jpg" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="slider-nav__item">
+								<img src="img/slide_nav1.jpg" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="slider-nav__item">
+								<img src="img/slide_nav1.jpg" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="slider-nav__item">
+								<img src="img/slide_nav1.jpg" alt="alt">
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col_for">
+					<ul class="slider-for">
+						<li>
+							<div class="slider-for__item">
+								<img src="img/slide_for1.jpg" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="slider-for__item">
+								<img src="img/slide_for1.jpg" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="slider-for__item">
+								<img src="img/slide_for1.jpg" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="slider-for__item">
+								<img src="img/slide_for1.jpg" alt="alt">
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-5 col-lg-6">
+					<div class="articul">Артикул: 678798</div>
+					<div class="title-modal">Краска Rossetti Mondo Nuovo Lavabile Formula</div>
+					<div class="feature-item">Тип ЛКМ <span>Краска</span></div>
+					<div class="feature-item">Тип работ <span>Внутренних работ, Наружных работ</span></div>
+					<div class="feature-item">Объект применения <span>Стен, Террасы, Фасадов, Цоколя</span></div>
+					<div class="feature-item">Материал обработки <span>ДВП, ДСП, OSB (ОСБ), Штукатурка</span></div>
+					<div class="types-wrap">
+						<div class="item-type">
+							<label>
+								<input type="radio" checked="checked" name="type" />
+								<span>1 л</span>
+							</label>
+						</div>
+						<div class="item-type">
+							<label>
+								<input type="radio" name="type" />
+								<span>2 л</span>
+							</label>
+						</div>
+						<div class="item-type">
+							<label>
+								<input type="radio" name="type" />
+								<span>5 л</span>
+							</label>
+						</div>
+					</div>
+					<div class="prices-card">
+						<div class="old-price">1 772 ₽</div>
+						<div class="price-main">1 562 ₽</div>
+					</div>
+					<div class="buttons-card">
+						<div class="row">
+							<div class="col-6">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<a href="#" class="btn-main">В корзину</a>
+							</div>
+						</div>
+						<a href="#" class="btn-page">больше информации о товаре</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-help" class="modal-block">
+		<div class="modal-main">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="modal-main__content">
+						<div class="title-form">Не нашли нужный товар?</div>
+						<div class="descr-form">Напишите название товара и желаемую дату доставки. Мы сделаем все возможное</div>
+						<form>
+							<div class="item-input">
+								<input type="text" placeholder="+7 (__) ___-__-__" class="input-phone" required="required">
+							</div>
+							<div class="item-input">
+								<textarea placeholder="Сообщение"></textarea>
+							</div>
+							<button class="btn-main">Запросить  товар</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="image-modal">
+						<img src="img/img_modal1.jpg" alt="alt">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.23"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
