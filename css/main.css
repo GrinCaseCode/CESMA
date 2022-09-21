@@ -3590,6 +3590,7 @@ border: 1px solid #BDBDBD;
 .tab-pane:first-child {
 	display: block;
 }
+.services-top,
 .cooperation-top,
 .guarantee-top {
 	padding: 53px 103px;
@@ -3601,10 +3602,12 @@ border: 1px solid #BDBDBD;
 	background-position: center;
 	background-size: cover;
 }
+.services-top .title-section,
 .cooperation-top .title-section,
 .guarantee-top .title-section {
 	margin-bottom: 75px;
 	border-color: #fff;
+	font-weight: 700;
 	justify-content: center;
 	text-align: center;
 }
@@ -3640,10 +3643,10 @@ border: 1px solid #BDBDBD;
 	padding-bottom: 52px;
 	background-image: url(../img/bg_cooperation.jpg);
 }
-.cooperation-top .item-form {
+.cooperation-form .item-form {
 	margin-bottom: 28px;
 }
-.cooperation-top .btn-main {
+.cooperation-form .btn-main {
 	width: 100%;
 	padding: 0 15px;
 }
@@ -3708,4 +3711,58 @@ border: 1px solid #BDBDBD;
 }
 .row_actions .offer-block {
 	padding-left: 50px;
+}
+.services-top {
+	margin-bottom: 116px;
+	padding-bottom: 0;
+	background-image: url(../img/bg_cooperation.jpg);
+}
+.services-top .video-main {
+	height: 470px;
+	margin: 0;
+	margin-bottom: -56px;
+	margin-right: -103px;
+}
+.services-top__image {
+	bottom: 30px;
+	left: -195px;
+	position: absolute;
+}
+.services-top .cooperation-form {
+	left: -60px;
+	position: relative;
+	z-index: 2;
+}
+.services-page .title-section_simple {
+	margin-bottom: 40px;
+	font-weight: 500;
+}
+.services-page p {
+	margin-bottom: 20px;
+}
+.services-page {
+	line-height: 21px;
+	padding-bottom: 100px;
+}
+.row_images {
+	padding: 20px 0;
+}
+.row_images img {
+	margin-bottom: 40px;
+	max-width: 100%;
+	height: auto;
+}
+.row_images .row,
+.row_images {
+	margin: 0 -20px;
+}
+.row_images .row > div,
+.row_images > div {
+	padding: 0 20px;
+}
+.services-page p strong {
+	font-weight: 500;
+}
+.services-page .consultation-block {
+	margin-top: 100px;
 }
